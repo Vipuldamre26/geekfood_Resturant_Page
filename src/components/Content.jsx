@@ -67,7 +67,7 @@ const Content = () => {
             <div className='content-hero'>
                 <input className='heroInput' onChange={(e) => searchResturant(e.target.value)} placeholder='Search Resturants...' type='text'></input>
                 <div className='input-number'>
-                    <label>Minimum Rating:  </label>
+                    <label>Search by Rating:  </label>
                     <input type='number' onChange={(e) => searchResByRating(e.target.value)}></input>
                 </div>
             </div>
